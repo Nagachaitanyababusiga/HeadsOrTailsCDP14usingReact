@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.cont-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  width: 100vw;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.header{
+  color: #a35200;
+}
+.cont-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 60%;
+  min-width: 30%;
+  padding: 20px;
+  border-radius: 10px;
+}
+.imager {
+  height: 100px;
+  width: 100px;
+}
+.cont-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.btnon {
+  background-color: #f9d423;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  border-radius: 3px;
+  color: #a35200;
+  font-weight: bold;
+  padding: 5px;
+}
